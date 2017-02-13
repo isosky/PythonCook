@@ -11,4 +11,5 @@ print(round(1627731, -3))
 x = 1.23456
 print(format(x, '0.2f'))
 print(format(x, '0.3f'))
+
 print('Value is {:0.3f}'.format(x))
