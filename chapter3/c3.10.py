@@ -16,5 +16,4 @@ import numpy.linalg
 print(numpy.linalg.det(m))
 print(numpy.linalg.eigvals(m))
 
-print(numpy.linalg.solve(m,v))
-
+print(numpy.linalg.solve(m, v))
