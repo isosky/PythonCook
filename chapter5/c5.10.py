@@ -15,3 +15,7 @@ def memory_map(filename, access=mmap.ACCESS_WRITE):
 
 m = memory_map('data')
 print(len(m))
+
+print(m[0:10])
+m[0:11] = b'Hello World'
+m.close()
